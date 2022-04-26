@@ -12,7 +12,7 @@ module.exports = {
     static: './dist',
   },
   output: {
-    filename: 'main.js',
+    filename: './dist/[name].js',
     path: path.resolve(__dirname, 'dist'),
   },
   mode: 'none',
